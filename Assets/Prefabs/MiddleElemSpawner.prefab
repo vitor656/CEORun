@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MiddleElemSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.4966002, y: 0, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7bec0fe5d882014f93b55fe9698e0b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  phase01Elements: []
+  phase02Elements:
+  - {fileID: 100000, guid: b10f6b6840de1ad49a7213cd528678f5, type: 2}
+  - {fileID: 100000, guid: 04823d253c826494ab86242db63a73f6, type: 2}
+  - {fileID: 100000, guid: 493b9f9b2c0ff964981e25eead8b7ec6, type: 2}
+  - {fileID: 100000, guid: d6a9eea0b5644ae448e3a8294e4a2770, type: 2}
+  - {fileID: 100000, guid: 0de45075f8b83b84ea37fda25728506c, type: 2}
+  - {fileID: 100000, guid: 4fdab1a5412b13b41b515ea38b1676ba, type: 2}
+  phase03Elements: []
+  phase04Elements: []
+  currentElements: []
+  timeToSpawn: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

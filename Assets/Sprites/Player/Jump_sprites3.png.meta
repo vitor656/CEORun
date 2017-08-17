@@ -1,0 +1,112 @@
+fileFormatVersion: 2
+guid: 4a7faf6922df42f4a9250f116f38fa97
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Jump_sprites3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 154
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Jump_sprites3_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 171
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Jump_sprites3_2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 15
+        width: 184
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Jump_sprites3_3
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 30
+        width: 185
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Jump_sprites3_4
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 14
+        width: 180
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Jump_sprites3_5
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 19
+        width: 158
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Jump_sprites3_6
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 6
+        width: 165
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
